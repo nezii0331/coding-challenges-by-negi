@@ -19,7 +19,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class day02_Class_vs_Instance {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
