@@ -5,7 +5,7 @@
 // You must write an algorithm that runs in O(n) time and without using the division operation.
 
 
-class Solution {
+public class solution {
     public int[] productExceptSelf(int[] nums) {
         int [] result = new int[nums.length];
 
