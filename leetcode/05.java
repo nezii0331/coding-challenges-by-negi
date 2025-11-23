@@ -16,23 +16,20 @@ public class Solution{
 
         String [] difference = new String[words.length];
         System.out.println("difference length: " + difference.length);
-        //所以要先轉型別 先把string 變成char
+        //turn the string into char
         for(int i = 0; i < words.length; i++){
             // System.out.println("words length: " + words[i]);
             String currentWord = words[i];
             // System.out.println("currentWord: " + currentWord);
             int[] diffArray = new int [currentWord.length()-1];
 
-            for(int x = 0; x < currentWord.length() - 1 ;x++){  //如果這邊條件寫x < words.length 為甚麼會out of bundary,
-            //因為currentword比word.length 小嗎?
+            for(int x = 0; x < currentWord.length() - 1 ;x++){  //if this condition is x < words.length, it will out of bundary
+            //because currentword is smaller than word.length
             char char1 = currentWord.charAt(x);
             char char2 = currentWord.charAt(x+1);
 
             int diff = char2 - char1;
-            // System.out.println("diff is: " + char1 + "-" +  char2);
-
             diffArray[x] = diff;
-            // System.out.println("diffArray :" + diffArray[x] );
             }
             difference[i] = Arrays.toString(diffArray);
         }
