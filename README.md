@@ -19,6 +19,7 @@ My solutions for various coding platforms.
 | 10 | Binary Numbers | [Java](./hackerrank/day10_class.java) |
 | 12 | Inheritance | [Java](./hackerrank/day12_class.java) |
 | 13 | Abstract Classes | [Java](./hackerrank/day13_class.java) |
+| 14 | 2D Array - DS | [Java](./hackerrank/day14_class.java) |
 
 ## LeetCode
 
