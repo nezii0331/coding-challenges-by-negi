@@ -33,19 +33,18 @@ class Result {
      * The function accepts INTEGER n as parameter.
      */
 
-    public static int factorial(int n){
-        //so firstly I have to complete factorial for instance that this (n-1)
-        //if i got a n and then i have to complete the first method that is 
+    public static int factorial(int n) {
+        // Base case: if n <= 1, return 1.
+        // Recursive step: n * factorial(n-1).
         int result = 1;
-        
-        if (n <= 1){
-            return 1;       
+
+        if (n <= 1) {
+            return 1;
         } else {
-           return  n * factorial(n-1);
-          }
+            return n * factorial(n - 1);
+        }
     }
 }
-
 
 public class Solution {
     public static void main(String[] args) throws IOException {
@@ -54,7 +53,7 @@ public class Solution {
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-        int result = Result.factorial(n);  //here will call the factorial method
+        int result = Result.factorial(n); // Call the factorial method
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();

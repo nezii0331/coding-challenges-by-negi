@@ -35,13 +35,13 @@ public class day13_class {
 
         int fackBin = 1;
 
-        // find highest power of 2
+        // Find the highest power of 2 less than or equal to n
         while (fackBin <= n) {
             fackBin *= 2;
         }
         fackBin /= 2;
 
-        // scan bits
+        // Scan bits from most significant to least significant
         while (fackBin > 0) {
             if (n >= fackBin) {
                 n -= fackBin;

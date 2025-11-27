@@ -17,9 +17,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-
-
-public class Solution {
+public class day14_class {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -28,45 +26,44 @@ public class Solution {
         IntStream.range(0, 6).forEach(i -> {
             try {
                 arr.add(
-                    Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                        .map(Integer::parseInt)
-                        .collect(toList())
-                );
+                        Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+                                .map(Integer::parseInt)
+                                .collect(toList()));
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
         });
-        
+
         // System.out.println("current arr:" + arr);
-        
+
         int MaxSum = Integer.MIN_VALUE;
-        
-        for(int i = 0; i<=3 ; i++ ){
-            for(int j = 0 ; j<=3; j++){
-                //here we need to calcuate those seven number
+
+        for (int i = 0; i <= 3; i++) {
+            for (int j = 0; j <= 3; j++) {
+                // Calculate the sum of the hourglass pattern (7 numbers)
                 // System.out.println("print at (" + i + " j "+ j +")");
-                
-                // System.out.println("current arr:" + arr.get(i).get(j)); //run throuth [11100]
+
+                // System.out.println("current arr:" + arr.get(i).get(j)); // Debug: Check
+                // current element
                 int sum = 0;
-                
+
                 sum += arr.get(i).get(j);
-                sum += arr.get(i).get(j+1);
-                sum += arr.get(i).get(j+2);
-                sum += arr.get(i+1).get(j+1);
-                sum += arr.get(i+2).get(j);
-                sum += arr.get(i+2).get(j+1);
-                sum += arr.get(i+2).get(j+2);
+                sum += arr.get(i).get(j + 1);
+                sum += arr.get(i).get(j + 2);
+                sum += arr.get(i + 1).get(j + 1);
+                sum += arr.get(i + 2).get(j);
+                sum += arr.get(i + 2).get(j + 1);
+                sum += arr.get(i + 2).get(j + 2);
                 // System.out.println("2. current arr:" + arr.get(i+2).get(j+2));
-                
-                // System.out.println("crrent sum = " + sum);
-                
+
+                // System.out.println("current sum = " + sum);
+
                 MaxSum = Math.max(sum, MaxSum);
-                // System.out.println("crrent MaxSum = " + MaxSum);
-                
+                // System.out.println("current MaxSum = " + MaxSum);
+
             }
         }
         System.out.println(MaxSum);
-    
 
         bufferedReader.close();
     }
