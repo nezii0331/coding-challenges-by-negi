@@ -24,6 +24,14 @@ My solutions for various coding platforms.
 | 13 | Abstract Classes | [Java](./hackerrank/day13_class.java) |
 | 14 | 2D Arrays | [Java](./hackerrank/day14_class.java) |
 
+## HackerRank (Java Basic)
+
+| Day | Challenge | Solution |
+|:---|:---|:---|
+| 01 | Hello World | [Java](./hackerrank/javaBasic/D1.java) |
+| 02 | Stdin and Stdout | [Java](./hackerrank/javaBasic/D2.java) |
+| 03 | If-Else | [Java](./hackerrank/javaBasic/D3.java) |
+
 ## LeetCode
 
 | # | Problem | Solution |
