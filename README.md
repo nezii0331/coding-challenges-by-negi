@@ -17,7 +17,7 @@ My solutions for various coding platforms.
 | 06 | Review (Old) | [Java](./hackerrank/day06_class.java) |
 | 07 | Arrays | [Java](./hackerrank/day07_class.java) |
 | 08 | Dictionaries and Maps | [Java](./hackerrank/day08_class.java) |
-| 09 | Recursion 3 | [Java](./hackerrank/Solution.java) |
+| 09 | Recursion 3 | [Java](./hackerrank/rennew5.java) |
 | 09 | Recursion 3 (Old) | [Java](./hackerrank/day09_class.java) |
 | 10 | Binary Numbers | [Java](./hackerrank/day10_class.java) |
 | 12 | Inheritance | [Java](./hackerrank/day12_class.java) |
@@ -29,8 +29,10 @@ My solutions for various coding platforms.
 | Day | Challenge | Solution |
 |:---|:---|:---|
 | 01 | Hello World | [Java](./hackerrank/javaBasic/D1.java) |
-| 02 | Stdin and Stdout | [Java](./hackerrank/javaBasic/D2.java) |
+| 02 | Stdin and Stdout I | [Java](./hackerrank/javaBasic/D2.java) |
 | 03 | If-Else | [Java](./hackerrank/javaBasic/D3.java) |
+| 04 | Stdin and Stdout II | [Java](./hackerrank/javaBasic/D4.java) |
+| 05 | Output Formatting | [Java](./hackerrank/javaBasic/D5.java) |
 
 ## LeetCode
 
