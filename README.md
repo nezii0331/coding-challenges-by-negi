@@ -9,6 +9,7 @@ My solutions for various coding platforms.
 | 01 | Linux: Basic Calculation | [Shell](./hackerrank/day01-linux-basic-calcu.sh) |
 | 01 | Linux: Loop | [Shell](./hackerrank/day01-linux-loop.sh) |
 | 02 | Linux: Comparing Numbers | [Shell](./hackerrank/day02-bash.sh) |
+| 03 | Linux: Getting started with conditionals | [Shell](./hackerrank/day03-bash.sh) |
 | 02 | Class vs. Instance | [Java](./hackerrank/day02_Class_vs_Instance.java) |
 | 03 | Class (Conditional Statements) | [Java](./hackerrank/day03_class.java) |
 | 04 | Class (Poisson Distribution) | [Java](./hackerrank/day04_class.java) |
