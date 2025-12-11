@@ -1,0 +1,77 @@
+
+//13-12-2025
+/*
+ * Complete the 'reverseArray' function below.
+ *
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts INTEGER_ARRAY a as parameter.
+ */
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+class Result {
+
+    /*
+     * Complete the 'reverseArray' function below.
+     *
+     * The function is expected to return an INTEGER_ARRAY.
+     * The function accepts INTEGER_ARRAY a as parameter.
+     */
+
+    public static List<Integer> reverseArray(List<Integer> a) {
+        // Write your code here
+        // REVERSE ARR
+        // method one
+        int howLong = a.size() - 1;
+        List<Integer> result = new ArrayList<>();
+
+        // System.out.println("current long :" + howLong);
+
+        // for(int i = howLong-1 ; i >= 0 ; i--){
+        // System.out.println("current i :" + a.get(i));
+        // result.add((a.get(i)));
+        // }
+
+        // method 2
+        while (howLong >= 0) {
+            result.add((a.get(howLong)));
+            howLong--;
+        }
+
+        return result;
+    }
+
+}
+
+public class day18_class {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int arrCount = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+                .map(Integer::parseInt)
+                .collect(toList());
+
+        List<Integer> res = Result.reverseArray(arr);
+
+        bufferedWriter.write(
+                res.stream()
+                        .map(Object::toString)
+                        .collect(joining(" "))
+                        + "\n");
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
+}

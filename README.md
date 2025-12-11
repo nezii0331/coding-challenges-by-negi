@@ -1,58 +1,90 @@
-# Coding Challenges
+# 🚀 Coding Challenges
 
-My solutions for various coding platforms.
+Welcome to my collection of coding solutions! This repository documents my journey in mastering algorithms and data structures across various platforms.
 
-## HackerRank (30 Days of Code & Linux)
+## 🛠️ Tech Stack
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-| Day | Challenge | Solution |
-|:---|:---|:---|
-| 01 | Linux: Basic Calculation | [Shell](./hackerrank/day01-linux-basic-calcu.sh) |
-| 01 | Linux: Loop | [Shell](./hackerrank/day01-linux-loop.sh) |
-| 02 | Linux: Comparing Numbers | [Shell](./hackerrank/day02-bash.sh) |
-| 03 | Linux: Getting started with conditionals | [Shell](./hackerrank/day03-bash.sh) |
-| 02 | Class vs. Instance | [Java](./hackerrank/day02_Class_vs_Instance.java) |
-| 03 | Class (Conditional Statements) | [Java](./hackerrank/day03_class.java) |
-| 04 | Class (Poisson Distribution) | [Java](./hackerrank/day04_class.java) |
-| 05 | Loops | [Java](./hackerrank/day05_class.java) |
-| 06 | Review | [Java](./hackerrank/rennew1.java) |
-| 06 | Review (Old) | [Java](./hackerrank/day06_class.java) |
-| 07 | Arrays | [Java](./hackerrank/day07_class.java) |
-| 08 | Dictionaries and Maps | [Java](./hackerrank/day08_class.java) |
-| 09 | Recursion 3 | [Java](./hackerrank/rennew5.java) |
-| 09 | Recursion 3 (Old) | [Java](./hackerrank/day09_class.java) |
-| 10 | Binary Numbers | [Java](./hackerrank/day10_class.java) |
-| 12 | Inheritance | [Java](./hackerrank/day12_class.java) |
-| 13 | Abstract Classes | [Java](./hackerrank/day13_class.java) |
-| 14 | 2D Arrays | [Java](./hackerrank/day14_class.java) |
+---
 
-## HackerRank (Java Basic)
+## 📂 Contents
+- [HackerRank](#hackerrank)
+  - [30 Days of Code](#30-days-of-code)
+  - [Java Basic](#java-basic)
+  - [Algorithms](#algorithms)
+  - [Linux Shell](#linux-shell)
+- [LeetCode](#leetcode)
+- [NeetCode](#neetcode)
 
-| Day | Challenge | Solution |
-|:---|:---|:---|
-| 01 | Hello World | [Java](./hackerrank/javaBasic/D1.java) |
-| 02 | Stdin and Stdout I | [Java](./hackerrank/javaBasic/D2.java) |
-| 03 | If-Else | [Java](./hackerrank/javaBasic/D3.java) |
-| 04 | Stdin and Stdout II | [Java](./hackerrank/javaBasic/D4.java) |
-| 05 | Output Formatting | [Java](./hackerrank/javaBasic/D5.java) |
+---
 
-## LeetCode
+## <a name="hackerrank"></a>HackerRank
 
-| # | Problem | Solution |
-|:---|:---|:---|
-| 238 | Product of Array Except Self | [Java](./leetcode/solution.java) |
-| 3289 | Find the Sneaky Numbers | [Java](./leetcode/02.java) |
-| 680 | Valid Palindrome II | [Java](./leetcode/03.java) |
-| 15 | 3Sum | [Java](./leetcode/04.java) |
-| 2451 | Odd String Difference | [Java](./leetcode/05.java) |
-| - | MySQL Basics | [SQL](./leetcode/MYsql.sql) |
-| - | MySQL Practice | [SQL](./leetcode/Mysql02.sql) |
+### <a name="30-days-of-code"></a>📅 30 Days of Code
+| Day | Challenge | Topic | Solution |
+|:---:|:---|:---|:---:|
+| 02 | Class vs. Instance | OOP | [Java](./hackerrank/day02_Class_vs_Instance.java) |
+| 03 | Class (Conditional Statements) | Control Flow | [Java](./hackerrank/day03_class.java) |
+| 04 | Class (Poisson Distribution) | Statistics | [Java](./hackerrank/day04_class.java) |
+| 05 | Loops | Loops | [Java](./hackerrank/day05_class.java) |
+| 06 | Review | String Manipulation | [Java](./hackerrank/rennew1.java) |
+| 07 | Arrays | Arrays | [Java](./hackerrank/day07_class.java) |
+| 08 | Dictionaries and Maps | Hash Maps | [Java](./hackerrank/day08_class.java) |
+| 09 | Recursion 3 | Recursion | [Java](./hackerrank/rennew5.java) |
+| 10 | Binary Numbers | Bit Manipulation | [Java](./hackerrank/day10_class.java) |
+| 12 | Inheritance | Inheritance | [Java](./hackerrank/day12_class.java) |
+| 12 | Inheritance (Review) | Inheritance | [Java](./hackerrank/rennew6.java) |
+| 13 | Abstract Classes | Abstract Classes | [Java](./hackerrank/day13_class.java) |
+| 14 | 2D Arrays | Matrix / Arrays | [Java](./hackerrank/day14_class.java) |
+| 15 | Series Check | Loops | [Java](./hackerrank/day15_class.java) |
 
-## NeetCode
+### <a name="java-basic"></a>☕ Java Basic
+| ID | Challenge | Topic | Solution |
+|:---:|:---|:---|:---:|
+| D1 | Hello World | Basic Syntax | [Java](./hackerrank/javaBasic/D1.java) |
+| D2 | Stdin and Stdout I | I/O | [Java](./hackerrank/javaBasic/D2.java) |
+| D3 | If-Else | Conditionals | [Java](./hackerrank/javaBasic/D3.java) |
+| D4 | Stdin and Stdout II | I/O | [Java](./hackerrank/javaBasic/D4.java) |
+| D5 | Output Formatting | String Formatting | [Java](./hackerrank/javaBasic/D5.java) |
 
-| Problem | Solution |
-|:---|:---|
-| Product of Array Except Self | [Java](./neetcode/solution.java) |
-| Encode and Decode Strings | [Java](./neetcode/Two.java) |
-| Longest Consecutive Sequence | [Java](./neetcode/Three.java) |
-| Valid Palindrome | [Java](./neetcode/Four.java) |
-| 3Sum | [Java](./neetcode/Five.java) |
+### <a name="algorithms"></a>🧮 Algorithms
+| Date | Challenge | Topic | Solution |
+|:---:|:---|:---|:---:|
+| 12-12-25 | Simple Array Sum | Arrays | [Java](./hackerrank/Algorithms/12-12-2025.java) |
+
+### <a name="linux-shell"></a>🐧 Linux Shell
+| Day | Challenge | Topic | Solution |
+|:---:|:---|:---|:---:|
+| 01 | Basic Calculation | Arithmetic | [Shell](./hackerrank/day01-linux-basic-calcu.sh) |
+| 01 | Loop | Loops | [Shell](./hackerrank/day01-linux-loop.sh) |
+| 02 | Comparing Numbers | Conditionals | [Shell](./hackerrank/day02-bash.sh) |
+| 03 | Getting started with conditionals | Conditionals | [Shell](./hackerrank/day03-bash.sh) |
+
+---
+
+## <a name="leetcode"></a>LeetCode
+| # | Problem | Topic | Solution |
+|:---:|:---|:---|:---:|
+| 238 | Product of Array Except Self | Arrays / Prefix Sum | [Java](./leetcode/solution.java) |
+| 3289 | Find the Sneaky Numbers | Arrays / Hash Set | [Java](./leetcode/02.java) |
+| 680 | Valid Palindrome II | Two Pointers | [Java](./leetcode/03.java) |
+| 15 | 3Sum | Two Pointers | [Java](./leetcode/04.java) |
+| 2451 | Odd String Difference | String | [Java](./leetcode/05.java) |
+| - | MySQL Basics | SQL | [SQL](./leetcode/MYsql.sql) |
+| - | MySQL Practice | SQL | [SQL](./leetcode/Mysql02.sql) |
+
+---
+
+## <a name="neetcode"></a>NeetCode
+| Problem | Topic | Solution |
+|:---|:---|:---:|
+| Product of Array Except Self | Arrays | [Java](./neetcode/solution.java) |
+| Encode and Decode Strings | Strings | [Java](./neetcode/Two.java) |
+| Longest Consecutive Sequence | Arrays / Hashing | [Java](./neetcode/Three.java) |
+| Valid Palindrome | Two Pointers | [Java](./neetcode/Four.java) |
+| 3Sum | Two Pointers | [Java](./neetcode/Five.java) |
+
+---
+*Generated by Antigravity*
