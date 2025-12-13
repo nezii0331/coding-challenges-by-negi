@@ -50,9 +50,13 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | D5 | Output Formatting | String Formatting | [Java](./hackerrank/javaBasic/D5.java) |
 
 ### <a name="algorithms"></a>🧮 Algorithms
-| Date | Challenge | Topic | Solution |
+| ID | Challenge | Topic | Solution |
 |:---:|:---|:---|:---:|
-| 12-12-25 | Simple Array Sum | Arrays | [Java](./hackerrank/Algorithms/12-12-2025.java) |
+| 16 | Solve Me First | Arithmetic | [Java](./hackerrank/Algorithms/day16_class.java) |
+| 17 | Simple Array Sum | Arrays | [Java](./hackerrank/Algorithms/day17_class.java) |
+| 18 | Reverse Array | Arrays | [Java](./hackerrank/Algorithms/day18_class.java) |
+| 19 | Compare the Triplets | Arrays / Logic | [Java](./hackerrank/Algorithms/day19_class.java) |
+| - | Simple Array Sum (Old) | Arrays | [Java](./hackerrank/Algorithms/12-12-2025.java) |
 
 ### <a name="linux-shell"></a>🐧 Linux Shell
 | Day | Challenge | Topic | Solution |

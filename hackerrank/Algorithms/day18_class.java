@@ -34,12 +34,7 @@ class Result {
         int howLong = a.size() - 1;
         List<Integer> result = new ArrayList<>();
 
-        // System.out.println("current long :" + howLong);
-
-        // for(int i = howLong-1 ; i >= 0 ; i--){
-        // System.out.println("current i :" + a.get(i));
-        // result.add((a.get(i)));
-        // }
+        // method 2
 
         // method 2
         while (howLong >= 0) {
