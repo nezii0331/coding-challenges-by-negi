@@ -39,6 +39,8 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 13 | Abstract Classes | Abstract Classes | [Java](./hackerrank/day13_class.java) |
 | 14 | 2D Arrays | Matrix / Arrays | [Java](./hackerrank/day14_class.java) |
 | 15 | Series Check | Loops | [Java](./hackerrank/day15_class.java) |
+| 21 | Abstract Classes (Review) | Abstract Classes | [Java](./hackerrank/day21_class.java) |
+| 22 | Java Datatypes | Data Types | [Java](./hackerrank/day22_class.java) |
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
