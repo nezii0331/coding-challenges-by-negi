@@ -13,21 +13,14 @@ public class day23_class {
          */
         Scanner scan = new Scanner(System.in);
         int howMany = scan.nextInt();
-        int howMany = scan.nextInt();
 
         String first = scan.next();
-        String first = scan.next();
-
-        String second = scan.next();
         String second = scan.next();
 
-        spilEvenString(first, second);
-        spilEvenString(first, second);
-        System.out.print("\n" + spilEvenString(first, second));
+        System.out.println(spilEvenString(first, second));
+        System.out.println(spilOddString(first, second));
 
-        spilOddString(first, second);
-        spilOddString(first, second);
-        System.out.print("\n" + spilOddString(first, second));
+        scan.close();
     }
 
     public static StringBuilder spilEvenString(String first, String second) {

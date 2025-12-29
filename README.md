@@ -41,6 +41,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 15 | Series Check | Loops | [Java](./hackerrank/day15_class.java) |
 | 21 | Abstract Classes (Review) | Abstract Classes | [Java](./hackerrank/day21_class.java) |
 | 22 | Java Datatypes | Data Types | [Java](./hackerrank/day22_class.java) |
+| 23 | String Split | String Manipulation | [Java](./hackerrank/day23_class.java) |
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
