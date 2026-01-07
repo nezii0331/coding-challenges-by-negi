@@ -43,6 +43,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 22 | Java Datatypes | Data Types | [Java](./hackerrank/day22_class.java) |
 | 23 | String Split | String Manipulation | [Java](./hackerrank/day23_class.java) |
 | 24 | Linked List Cycle | Linked Lists | [Java](./hackerrank/day24_class.java) |
+| 25 | Scope | Scope / Logic | [Java](./hackerrank/day25_class.java) |
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
