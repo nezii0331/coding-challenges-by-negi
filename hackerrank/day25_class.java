@@ -21,19 +21,17 @@ class Difference {
     private int[] elements;
     public int maximumDifference;
 
-    // constructor //here is the born evidence
-    // constructor: initialize the object with the input array
+    // Constructor: initialize the object with the input array
     Difference(int[] elements) {
         this.elements = elements;
     }
 
     // Add your code here
-    public void computeDifference() { // elements is the private so that you can use it inside this class no need to
-                                      // call
+    public void computeDifference() {
         // elements is a private instance variable, so it can be accessed directly
         // inside this class
-        int Max = elements[0]; // need an actucal value
-        int Min = elements[0]; // array is guaranteed to have at least one element
+        int Max = elements[0];
+        int Min = elements[0];
 
         for (int i = 1; i < elements.length; i++) {
             if (Max < elements[i]) {
@@ -42,9 +40,9 @@ class Difference {
             if (Min > elements[i]) {
                 Min = elements[i];
             }
-            // to debug
-            // System.out.println("Max = " + Max);
-            // System.out.println("Min = " + Min);
+            if (Min > elements[i]) {
+                Min = elements[i];
+            }
         }
 
         maximumDifference = Max - Min;

@@ -20,43 +20,34 @@ import java.util.*;
 
 public class rennew4 {
 
-    public static void main(String[] args){ 
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-    
-    
-    
-    Scanner scan = new Scanner(System.in);
-    
-    //initilate hasmap
-    HashMap <String , Integer>  map = new HashMap<>();
-    //hashmap <key, value>
-    
-    int n = scan.nextInt();
-    // System.out.println("print int :" + n);
-    
-    
-    //initialize debug
-    // System.out.println("print name :" + name);
-    // System.out.println("print pho :" + phoInteger);
-    
-    for(int i = n; i > 0 ; i--){
-        String name = scan.next();
-        Integer phoInteger =scan.nextInt();    
-        //according to the input put into map
-        map.put(name, phoInteger);
-        // System.out.println("current i :" + i);
-        // System.out.println("current map :" + map);
-    }
+    public static void main(String[] args) {
+        /*
+         * Enter your code here. Read input from STDIN. Print output to STDOUT. Your
+         * class should be named Solution.
+         */
 
-    
-    for( ;scan.hasNext(); ){ //you must continue reading lines until there is no more input.
-        String acorName = scan.next();
-        // System.out.println("print name :" + acorName);
-        if(map.containsKey(acorName)){
-            System.out.println( acorName + "=" + map.get(acorName)); 
-        } else {
-            System.out.println("Not found");
+        Scanner scan = new Scanner(System.in);
+
+        // Initialize hashmap
+        HashMap<String, Integer> map = new HashMap<>();
+
+        int n = scan.nextInt();
+
+        for (int i = n; i > 0; i--) {
+            String name = scan.next();
+            Integer phoInteger = scan.nextInt();
+            // Add to map
+            map.put(name, phoInteger);
         }
-    }
+
+        for (; scan.hasNext();) {
+            String acorName = scan.next();
+            if (map.containsKey(acorName)) {
+                System.out.println(acorName + "=" + map.get(acorName));
+            } else {
+                System.out.println("Not found");
+            }
+        }
+        scan.close();
     }
 }

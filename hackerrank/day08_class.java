@@ -33,9 +33,6 @@ public class Solution {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
-        // int [] a = new int [n];
-        // System.out.println(n);
-        // System.out.println(a);
 
         List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
                 .map(Integer::parseInt)
@@ -56,9 +53,7 @@ public class Solution {
         while (left < right) {
             int temp = arr.get(left);
             arr.set(left, arr.get(right));
-            // System.out.println("==right==" + arr); // Debug: Print array after swapping
             arr.set(right, temp);
-            // System.out.println("==left==" + arr); // Debug: Print array after swapping
             right--;
             left++;
         }

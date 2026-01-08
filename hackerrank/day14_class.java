@@ -41,10 +41,6 @@ public class day14_class {
         for (int i = 0; i <= 3; i++) {
             for (int j = 0; j <= 3; j++) {
                 // Calculate the sum of the hourglass pattern (7 numbers)
-                // System.out.println("print at (" + i + " j "+ j +")");
-
-                // System.out.println("current arr:" + arr.get(i).get(j)); // Debug: Check
-                // current element
                 int sum = 0;
 
                 sum += arr.get(i).get(j);
@@ -54,13 +50,8 @@ public class day14_class {
                 sum += arr.get(i + 2).get(j);
                 sum += arr.get(i + 2).get(j + 1);
                 sum += arr.get(i + 2).get(j + 2);
-                // System.out.println("2. current arr:" + arr.get(i+2).get(j+2));
-
-                // System.out.println("current sum = " + sum);
 
                 MaxSum = Math.max(sum, MaxSum);
-                // System.out.println("current MaxSum = " + MaxSum);
-
             }
         }
         System.out.println(MaxSum);

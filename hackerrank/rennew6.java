@@ -21,37 +21,27 @@ public class rennew6 {
         int numberOfScores = scan.nextInt();
         int[] manyScores = new int[numberOfScores];
 
-        // System.out.println("first :" + first );
-        // System.out.println("Last :" + Last);
-        // System.out.println("lastName :" + id);
-        // System.out.println("How many score:" + numberOfScores);
         for (int i = 0; i < numberOfScores; i++) {
-            int scores = scan.nextInt(); // I should put the int in here later we'll talk about this and why
-            // System.out.println("About the scores:" + scores);
+            int scores = scan.nextInt();
 
             manyScores[i] = scores;
-            // System.out.println("check scores:" + manyScores[i]);
+
         }
 
         // i use force to calculate the number of the score
         int result;
         int sum = 0;
         for (int x = 0; x < numberOfScores; x++) {
-            // System.out.println("current output:" + manyScores[x]); //use this index to
-            // check whether the number has stored inside manyscore
             sum += manyScores[x];
         }
         result = sum / numberOfScores;
-        // System.out.println("check result:" + result);
 
-        // for(int y = 0 ; y < firstNameAndLast.length(); y++){
-        // System.out.println("Name:" + firstNameAndLast{y]);
-        // }
         System.out.println("Name: " + Last + ", " + first);
         System.out.println("ID:" + id);
         char Grade = calculate(result);
         System.out.println("Grade: " + Grade);
 
+        scan.close();
     }
 
     public static char calculate(int result) {
