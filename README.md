@@ -45,6 +45,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 24 | Linked List Cycle | Linked Lists | [Java](./hackerrank/day24_class.java) |
 | 25 | Scope | Scope / Logic | [Java](./hackerrank/day25_class.java) |
 | 26 | Linked List Insertion | Linked Lists | [Java](./hackerrank/day26_class.java) |
+| 27 | Exceptions | Exceptions | [Java](./hackerrank/day27_class.java) |
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
