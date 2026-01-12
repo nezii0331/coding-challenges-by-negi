@@ -46,6 +46,8 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 25 | Scope | Scope / Logic | [Java](./hackerrank/day25_class.java) |
 | 26 | Linked List Insertion | Linked Lists | [Java](./hackerrank/day26_class.java) |
 | 27 | Exceptions | Exceptions | [Java](./hackerrank/day27_class.java) |
+| 28 | RegEx, Patterns, and Intro to Databases | RegEx / DB | [Java](./hackerrank/Java%20(JAN)/day28_class.java) |
+| 29 | Bitwise AND | Bitwise Operations | [Java](./hackerrank/Java%20(JAN)/day29_class.java) |
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
