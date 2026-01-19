@@ -73,6 +73,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | ID | Challenge | Topic | Solution |
 |:---:|:---|:---|:---:|
 | D1 | Hello World | Basic Syntax | [Python](./hackerrank/Python/D1.py) |
+| D2 | Python If-Else | Conditionals | [Python](./hackerrank/Python/D2.py) |
 
 ### <a name="linux-shell"></a>🐧 Linux Shell
 | Day | Challenge | Topic | Solution |
@@ -92,6 +93,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 680 | Valid Palindrome II | Two Pointers | [Java](./leetcode/03.java) |
 | 15 | 3Sum | Two Pointers | [Java](./leetcode/04.java) |
 | 2451 | Odd String Difference | String | [Java](./leetcode/05.java) |
+| 242 | Valid Anagram | HashTable | [Java](./leetcode/06.java) |
 | - | MySQL Basics | SQL | [SQL](./leetcode/MYsql.sql) |
 | - | MySQL Practice | SQL | [SQL](./leetcode/Mysql02.sql) |
 
