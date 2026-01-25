@@ -94,6 +94,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 15 | 3Sum | Two Pointers | [Java](./leetcode/04.java) |
 | 2451 | Odd String Difference | String | [Java](./leetcode/05.java) |
 | 242 | Valid Anagram | HashTable | [Java](./leetcode/06.java) |
+| 1002 | Find Common Characters | Hash Table / String | [Java](./leetcode/07.java) |
 | - | MySQL Basics | SQL | [SQL](./leetcode/MYsql.sql) |
 | - | MySQL Practice | SQL | [SQL](./leetcode/Mysql02.sql) |
 
