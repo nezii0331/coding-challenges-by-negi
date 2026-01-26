@@ -50,6 +50,8 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 27 | Exceptions | Exceptions | [Java](./hackerrank/day27_class.java) |
 | 28 | RegEx, Patterns, and Intro to Databases | RegEx / DB | [Java](./hackerrank/Java%20(JAN)/day28_class.java) |
 | 29 | Bitwise AND | Bitwise Operations | [Java](./hackerrank/Java%20(JAN)/day29_class.java) |
+| 30 | Palindrome checker | Palindrome | [Java](./hackerrank/Java%20(JAN)/day30_class.java) |
+| 31 | Java interface | Interface | [Java](./hackerrank/Java%20(JAN)/day31_class.java) |
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
@@ -59,6 +61,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | D3 | If-Else | Conditionals | [Java](./hackerrank/javaBasic/D3.java) |
 | D4 | Stdin and Stdout II | I/O | [Java](./hackerrank/javaBasic/D4.java) |
 | D5 | Output Formatting | String Formatting | [Java](./hackerrank/javaBasic/D5.java) |
+| D6 | Java Output | Basic Syntax | [Java](./hackerrank/javaBasic/D6.java) |
 
 ### <a name="algorithms"></a>🧮 Algorithms
 | ID | Challenge | Topic | Solution |
