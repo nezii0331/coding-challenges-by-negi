@@ -1,7 +1,7 @@
 //leetcode 1002
 //1002. Find Common Characters
 
-public class Solution {
+public class 07 {
     public List<String> commonChars(String[] words) {
 
         // for brute force i need to loop all the elements than output the same elements
