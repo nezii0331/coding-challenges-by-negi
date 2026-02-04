@@ -53,6 +53,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 30 | Palindrome checker | Palindrome | [Java](./hackerrank/Java%20(JAN)/day30_class.java) |
 | 31 | Java interface | Interface | [Java](./hackerrank/Java%20(JAN)/day31_class.java) |
 | 32 | Bubble Sort | Sorting | [Java](./hackerrank/Java%20(JAN)/day32_class.java) |
+| 33 | Generics | Generics | [Java](./hackerrank/Java%20(JAN)/day33_class.java) |
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
