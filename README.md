@@ -54,6 +54,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 31 | Java interface | Interface | [Java](./hackerrank/Java%20(JAN)/day31_class.java) |
 | 32 | Bubble Sort | Sorting | [Java](./hackerrank/Java%20(JAN)/day32_class.java) |
 | 33 | Generics | Generics | [Java](./hackerrank/Java%20(JAN)/day33_class.java) |
+| 34 | Binary Search Trees | Binary Search Trees | [Java](./hackerrank/Java%20(JAN)/day34_class.java) |
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
@@ -64,6 +65,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | D4 | Stdin and Stdout II | I/O | [Java](./hackerrank/javaBasic/D4.java) |
 | D5 | Output Formatting | String Formatting | [Java](./hackerrank/javaBasic/D5.java) |
 | D6 | Java Output | Basic Syntax | [Java](./hackerrank/javaBasic/D6.java) |
+
 
 ### <a name="algorithms"></a>🧮 Algorithms
 | ID | Challenge | Topic | Solution |
