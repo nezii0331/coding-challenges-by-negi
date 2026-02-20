@@ -36,6 +36,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 08 | Dictionaries and Maps | Hash Maps | [Java](./hackerrank/day08_class.java) |
 | 09 | Recursion 3 | Recursion | [Java](./hackerrank/rennew5.java) |
 | 10 | Binary Numbers | Bit Manipulation | [Java](./hackerrank/day10_class.java) |
+| 11 | Recursion 3 | Recursion | [Java](./hackerrank/Java%20(JAN)/day11_class.java) |
 | 12 | Inheritance | Inheritance | [Java](./hackerrank/day12_class.java) |
 | 12 | Inheritance (Review) | Inheritance | [Java](./hackerrank/rennew6.java) |
 | 13 | Abstract Classes | Abstract Classes | [Java](./hackerrank/day13_class.java) |
@@ -50,11 +51,13 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 27 | Exceptions | Exceptions | [Java](./hackerrank/day27_class.java) |
 | 28 | RegEx, Patterns, and Intro to Databases | RegEx / DB | [Java](./hackerrank/Java%20(JAN)/day28_class.java) |
 | 29 | Bitwise AND | Bitwise Operations | [Java](./hackerrank/Java%20(JAN)/day29_class.java) |
-| 30 | Palindrome checker | Palindrome | [Java](./hackerrank/Java%20(JAN)/day30_class.java) |
-| 31 | Java interface | Interface | [Java](./hackerrank/Java%20(JAN)/day31_class.java) |
-| 32 | Bubble Sort | Sorting | [Java](./hackerrank/Java%20(JAN)/day32_class.java) |
-| 33 | Generics | Generics | [Java](./hackerrank/Java%20(JAN)/day33_class.java) |
-| 34 | Binary Search Trees | Binary Search Trees | [Java](./hackerrank/Java%20(JAN)/day34_class.java) |
+| 30 | Stacks and Queues | Palindrome / Logic | [Java](./hackerrank/Java%20(JAN)/day30_class.java) |
+| 31 | Interfaces | Advanced Arithmetic | [Java](./hackerrank/Java%20(JAN)/day31_class.java) |
+| 32 | Sorting | Bubble Sort | [Java](./hackerrank/Java%20(JAN)/day32_class.java) |
+| 33 | Generics | Generic Printing | [Java](./hackerrank/Java%20(JAN)/day33_class.java) |
+| 34 | Binary Search Trees | Tree Height | [Java](./hackerrank/Java%20(JAN)/day34_class.java) |
+| 35 | BST Level-Order Traversal | BFS / Trees | [Java](./hackerrank/Java%20(JAN)/day35_class.java) |
+
 
 ### <a name="java-basic"></a>☕ Java Basic
 | ID | Challenge | Topic | Solution |
