@@ -57,7 +57,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 33 | Generics | Generic Printing | [Java](./hackerrank/Java%20(JAN)/day33_class.java) |
 | 34 | Binary Search Trees | Tree Height | [Java](./hackerrank/Java%20(JAN)/day34_class.java) |
 | 35 | BST Level-Order Traversal | BFS / Trees | [Java](./hackerrank/Java%20(JAN)/day35_class.java) |
-| 36 |  |  / | [Java](./hackerrank/Java%20(JAN)/day36_class.java) |
+| 36 | More Linked Lists | Linked Lists | [Java](./hackerrank/Java%20(JAN)/day36_class.java) |
 
 
 ### <a name="java-basic"></a>☕ Java Basic
