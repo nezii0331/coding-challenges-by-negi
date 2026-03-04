@@ -87,6 +87,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | D1 | Hello World | Basic Syntax | [Python](./hackerrank/Python/D1.py) |
 | D2 | Python If-Else | Conditionals | [Python](./hackerrank/Python/D2.py) |
 | D3 | Arithmetic Operators | Arithmetic | [Python](./hackerrank/Python/D3.py) |
+| D4 | Python: Division | Arithmetic | [Python](./hackerrank/Python/D4.py) |
 
 ### <a name="linux-shell"></a>🐧 Linux Shell
 | Day | Challenge | Topic | Solution |
