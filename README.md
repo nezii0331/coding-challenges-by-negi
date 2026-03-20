@@ -61,6 +61,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 37 | Running Time and Complexity | Complexity / Primality | [Java](./hackerrank/Java%20(JAN)/day37_class.java) |
 | 38 | Library Fine | Nested Logic | [Java](./hackerrank/Java%20(JAN)/day38_class.java) |
 | 39 | Testing | Unit Testing | [Java](./hackerrank/Java%20(JAN)/day39_class.java) |
+| 40 | RegEx, Patterns, and Intro to Databases | RegEx / DB | [Java](./hackerrank/Java%20(JAN)/day40_class.java) |
 
 
 ### <a name="java-basic"></a>☕ Java Basic
