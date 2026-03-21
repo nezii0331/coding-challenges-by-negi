@@ -95,6 +95,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | D5 | Python: Loops | Arithmetic / Loops | [Python](./hackerrank/Python/D5.py) |
 | D6 | Write a function | Logic / Functions | [Python](./hackerrank/Python/D6.py) |
 | D7 | Print Function | Basic Syntax / Loops | [Python](./hackerrank/Python/D7.py) |
+| D8 | List Comprehensions | Arrays / Lists | [Python](./hackerrank/Python/D8.py) |
 
 ### <a name="linux-shell"></a>🐧 Linux Shell
 | Day | Challenge | Topic | Solution |
