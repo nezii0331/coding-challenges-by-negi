@@ -96,6 +96,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | D6 | Write a function | Logic / Functions | [Python](./hackerrank/Python/D6.py) |
 | D7 | Print Function | Basic Syntax / Loops | [Python](./hackerrank/Python/D7.py) |
 | D8 | List Comprehensions | Arrays / Lists | [Python](./hackerrank/Python/D8.py) |
+| D9 | Find the Runner-Up Score | Arrays / Lists | [Python](./hackerrank/Python/D9.py) |
 
 ### <a name="linux-shell"></a>🐧 Linux Shell
 | Day | Challenge | Topic | Solution |
