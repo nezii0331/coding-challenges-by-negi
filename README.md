@@ -107,6 +107,16 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 02 | Comparing Numbers | Conditionals | [Shell](./hackerrank/day02-bash.sh) |
 | 03 | Getting started with conditionals | Conditionals | [Shell](./hackerrank/day03-bash.sh) |
 
+### <a name="sql"></a>🗄️ SQL
+| Day | Challenge | Topic | Solution |
+|:---:|:---|:---|:---:|
+| 01 | Revising the Select Query I | Basic Select | [SQL](./hackerrank/SQL/day01.sql) |
+| 02 | Revising the Select Query II | Basic Select | [SQL](./hackerrank/SQL/day02.sql) |
+| 03 | Select All | Basic Select | [SQL](./hackerrank/SQL/day03.sql) |
+| 04 | Select By ID | Basic Select | [SQL](./hackerrank/SQL/day04.sql) |
+| 05 | Japanese Cities' Attributes | Basic Select | [SQL](./hackerrank/SQL/day05.sql) |
+| 06 | Weather Observation Station 5 | Advanced Select | [SQL](./hackerrank/SQL/day06.sql) |
+
 ---
 
 ## <a name="leetcode"></a>LeetCode
