@@ -74,6 +74,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | D4 | Stdin and Stdout II | I/O | [Java](./hackerrank/javaBasic/D4.java) |
 | D5 | Output Formatting | String Formatting | [Java](./hackerrank/javaBasic/D5.java) |
 | D6 | Java Output | Basic Syntax | [Java](./hackerrank/javaBasic/D6.java) |
+| D7 | Static Initializer Block | Basic Syntax | [Java](./hackerrank/javaBasic/D7.java) |
 
 
 ### <a name="algorithms"></a>🧮 Algorithms
@@ -98,6 +99,7 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | D8 | List Comprehensions | Arrays / Lists | [Python](./hackerrank/Python/D8.py) |
 | D9 | Find the Runner-Up Score | Arrays / Lists | [Python](./hackerrank/Python/D9.py) |
 | D10 | Nested Lists | Arrays / Lists | [Python](./hackerrank/Python/D10.py) |
+| D11 | Merge the Tools! | Strings | [Python](./hackerrank/Python/D11.py) |
 
 ### <a name="linux-shell"></a>🐧 Linux Shell
 | Day | Challenge | Topic | Solution |
@@ -116,6 +118,8 @@ Welcome to my collection of coding solutions! This repository documents my journ
 | 04 | Select By ID | Basic Select | [SQL](./hackerrank/SQL/day04.sql) |
 | 05 | Japanese Cities' Attributes | Basic Select | [SQL](./hackerrank/SQL/day05.sql) |
 | 06 | Weather Observation Station 5 | Advanced Select | [SQL](./hackerrank/SQL/day06.sql) |
+| 07 | Weather Observation Station 6 | Advanced Select | [SQL](./hackerrank/SQL/day07.sql) |
+| 08 | The PADS | Advanced Select | [SQL](./hackerrank/SQL/day08.sql) |
 
 ---
 
